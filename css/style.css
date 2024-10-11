@@ -123,7 +123,7 @@
 }
 
 
-/*Estilos de Top Seller Cards
+/*Estilos de Top Seller Cards*/
 
 .grid-section {
     display: grid;
@@ -192,9 +192,9 @@
     text-align: left;
 }
 
-*/
 
-/*Estilos Categorias
+
+/*Estilos Categorias*/
 
 .categorias {
     text-align: center;
@@ -251,10 +251,10 @@
     text-decoration: none;
 }
 
-*/
 
 
-/* Estilo Reseller Section
+
+/* Estilo Reseller Section*/
 
 .reseller-seccion {
     display: flex;
@@ -307,9 +307,9 @@
     border-radius: 50px;
 }
 
-*/
 
-/* Estilo Footer
+
+/* Estilo Footer*/
 
 .footer {
     display: flex;
@@ -347,9 +347,9 @@
     color: #D8D2C2;
 }
 
-*/
 
-/* ESTILOS GALERIA PRODUCTOS
+
+/* ESTILOS GALERIA PRODUCTOS*/
 
 .titulo-productos {
     font-family: 'Glegoo';
@@ -412,8 +412,6 @@
     color: #241d19;
     font-family: 'roboto condensed';
 }
-
-*/
 
 
 /* MEDIA QUERIES */
