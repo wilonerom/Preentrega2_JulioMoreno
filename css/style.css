@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 /* Fuente 
   font-family: "Roboto Condensed", system-ui;
   font-optical-sizing: auto;
@@ -32,13 +31,12 @@
   Black 900
 */
 
-/*Estilos de Navbar*/
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding-left: 20px;
+    padding-right: 25px;
     background-color: #D8D2C2;
     height: 100px;
     font-size: 1.125rem;
@@ -47,78 +45,85 @@
     font-style: normal;
 }
 
-.navbar-logo img {
+.navbar img {
     max-width: 200px;
 }
 
-.navbar-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.navbar .navbar-menu {
     display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 5px;
 }
 
-.navbar-menu li {
-    margin-left: 25px;
-    margin-right: 25px;
-    
+.navbar-menu li{
+    font-size: 16px;
 }
 
 .navbar-menu a {
-text-decoration: none;
-color: #565551;
+    text-decoration: none;
+    color: #262626;
+    transition: 0.5s;
 }
 
-/*Estilos de Hero Banner*/
+.navbar-menu a:hover{
+    color: #8a3300;
+}
 
-.hero-banner {
-    background-image: url("../assets/img/img-herobanner.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+/*Hero Banner*/
+
+.hero-image{
+    background-image: url(https://images.unsplash.com/photo-1505964253539-4ca5a36328dd?q=80&w=2054&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 70vh;
     background-position: center;
-    height: 550px;
-    display: flex;
-    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
 }
 
-.hero-content {
-max-width: 600px;
-text-align: left;
-margin-left: 40px;
+.hero-content{
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: #f9f9f9;
 }
 
-.hero-content h1 {
-    margin-bottom: 30px;
-    font-size: 3.125rem;
-    font-family: 'Glegoo';
-    font-weight: 800;
-    letter-spacing: -1px;
-    line-height: 50px;
-    color: #241d19;
+.hero-content h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: "Glegoo";
+    font-weight: 600;
+    letter-spacing: -2px;
 }
 
 .hero-content p {
-    margin-bottom: 20px;
-    font-size: 1.125rem;
-    font-family: 'Roboto Condensed';
-    font-weight: 400;
-    color: #23211d;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
 
-.hero-button {
+.hero-content button {
+    border: none;
+    outline: 0;
     display: inline-block;
-    padding: 20px 60px;
-    margin-top: 10px;
-    background-color: #241d19;
-    color: #f9f9f9;
-    text-decoration: none;
-    font-family: 'Roboto Condensed';
-    font-size: 1.0625rem;
-    font-weight: 500;
-    border-radius: 50px;
+    padding: 10px 40px;
+    font-weight: 600;
+    color: #262626;
+    background-color: #f9f9f9;
+    transition: background-color 0.5s;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
 }
 
-/*Estilos de Top Seller Cards*/
+.hero-content button:hover {
+    background-color: #8a3300;
+    color: #f9f9f9;
+}
+
+
+/*Estilos de Top Seller Cards
 
 .grid-section {
     display: grid;
@@ -187,7 +192,9 @@ margin-left: 40px;
     text-align: left;
 }
 
-/*Estilos Categorias*/
+*/
+
+/*Estilos Categorias
 
 .categorias {
     text-align: center;
@@ -244,8 +251,10 @@ margin-left: 40px;
     text-decoration: none;
 }
 
+*/
 
-/* Estilo Reseller Section*/
+
+/* Estilo Reseller Section
 
 .reseller-seccion {
     display: flex;
@@ -298,7 +307,9 @@ margin-left: 40px;
     border-radius: 50px;
 }
 
-/* Estilo Footer */
+*/
+
+/* Estilo Footer
 
 .footer {
     display: flex;
@@ -336,7 +347,9 @@ margin-left: 40px;
     color: #D8D2C2;
 }
 
-/* ESTILOS GALERIA PRODUCTOS */
+*/
+
+/* ESTILOS GALERIA PRODUCTOS
 
 .titulo-productos {
     font-family: 'Glegoo';
@@ -400,6 +413,54 @@ margin-left: 40px;
     font-family: 'roboto condensed';
 }
 
+*/
+
+
 /* MEDIA QUERIES */
+
+@media (max-width: 322px){
+    .hero-content{
+    text-align: center;
+    color: #f9f9f9;
+    left: 50px;
+    }
+    .hero-content h1{
+        font-size: 1.5625rem;
+    }
+    .hero-content p{
+        font-size: .875rem;
+    }
+}
+
+@media (max-width: 375px){
+    .hero-content{
+    left: 20%;
+    text-align: center;
+    color: #f9f9f9;
+    }
+}
+
+@media (max-width: 425px){
+    .hero-content{
+    left: 20%;
+    text-align: center;
+    color: #f9f9f9;
+    }
+}
+
+@media (max-width: 580px){
+    .navbar-menu li {
+        display: none;
+        }
+}
+
+@media (max-width: 769px){
+    .hero-content{
+        left: 15%;
+        text-align: center;
+        color: #f9f9f9;
+        }
+}
+
 
 
