@@ -177,7 +177,7 @@
 
 .card-content h3 {
     font-size: 1.25rem;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Flex';
     margin-bottom: 10px;
     text-align: left;
 }
@@ -188,7 +188,7 @@
     background-color: #241d19;
     color: #D8D2C2;
     text-decoration: none;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Flex';
     font-weight: 600;
     border-radius: 25px;
     text-align: left;
@@ -242,7 +242,7 @@
     margin-top: 40px;
     padding: 15px 50px;
     font-size: 1.125rem;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Flex';
     font-weight: 600;
     cursor: pointer;
     background-color: #241d19;
@@ -284,7 +284,7 @@
 
 .reseller-info p {
     font-size: 1.25rem;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Flex';
     font-weight: 400;
     letter-spacing: -1px;
     margin-bottom: 40px;
@@ -338,13 +338,13 @@
     text-decoration: none;
     color: #D8D2C2;
     font-size: 1rem;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Flex';
     font-weight: 400;
 }
 
 .copyright-footer {
     font-size: .875rem;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Flex';
     font-weight: 300;
     color: #D8D2C2;
 }
@@ -380,7 +380,7 @@
 }
 
 .producto-content h6 {
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Flex';
     font-weight: 600;
     margin-top: 10px
 }
@@ -412,7 +412,7 @@
     list-style: none;
     text-decoration: none;
     color: #241d19;
-    font-family: 'roboto condensed';
+    font-family: 'Roboto Flex';
 }
 
 
