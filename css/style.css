@@ -171,14 +171,12 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 .card h2 {
     font-size: 1rem;
-=======
+    
 .card-content h3 {
     font-size: 1.25rem;
     font-family: 'Roboto Flex';
->>>>>>> 5eb22c7d3282bdd68993dc46c94db7b7c402dd52
     margin-bottom: 10px;
     font-family: 'Roboto Flex' 'sans serif';
     font-weight: 700;
@@ -190,11 +188,8 @@
     background-color: #262626;
     color: #f9f9f9;
     text-decoration: none;
-<<<<<<< HEAD
     font-size: 1rem;
-=======
     font-family: 'Roboto Flex';
->>>>>>> 5eb22c7d3282bdd68993dc46c94db7b7c402dd52
     font-weight: 600;
     border-radius: 25px;
     margin-top: 10px;
