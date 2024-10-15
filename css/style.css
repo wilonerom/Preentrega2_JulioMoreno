@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+
 /* Fuente 
   font-family: "Roboto Condensed", system-ui;
   font-optical-sizing: auto;
@@ -169,8 +171,14 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .card h2 {
     font-size: 1rem;
+=======
+.card-content h3 {
+    font-size: 1.25rem;
+    font-family: 'Roboto Flex';
+>>>>>>> 5eb22c7d3282bdd68993dc46c94db7b7c402dd52
     margin-bottom: 10px;
     font-family: 'Roboto Flex' 'sans serif';
     font-weight: 700;
@@ -182,7 +190,11 @@
     background-color: #262626;
     color: #f9f9f9;
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 1rem;
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> 5eb22c7d3282bdd68993dc46c94db7b7c402dd52
     font-weight: 600;
     border-radius: 25px;
     margin-top: 10px;
@@ -340,6 +352,10 @@
 .menu-footer ul li a {
     text-decoration: none;
     color: #D8D2C2;
+<<<<<<< HEAD
+=======
+    font-size: 1rem;
+>>>>>>> 5eb22c7d3282bdd68993dc46c94db7b7c402dd52
     font-family: 'Roboto Flex';
     font-weight: 400;
 }
